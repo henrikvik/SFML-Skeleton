@@ -4,7 +4,7 @@
 #if _DEBUG
 int main()
 #else
-INT WinMain(HINSTANCE,HINSTANCE,PSTR, INT)
+INT WinMain(HINSTANCE,HINSTANCE,PSTR,INT)
 #endif
 {
 	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
